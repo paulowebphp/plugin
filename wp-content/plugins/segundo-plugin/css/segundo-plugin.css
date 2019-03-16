@@ -1,0 +1,9 @@
+#welcome-panel
+{
+    
+    background: url(./../images/seal.png) no-repeat;
+    background-size: 200px;
+    min-height: 10em;
+    background-position: -78px -87px;
+
+}
