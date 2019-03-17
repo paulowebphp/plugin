@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Personalizar Painel\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-17 00:21+0000\n"
+"PO-Revision-Date: 2019-03-17 00:25+0000\n"
+"Last-Translator: paulowebphp <paulowebphp@gmail.com>\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.1; wp-5.1.1"
+
+#. Description of the plugin
+msgid "Este Plugin personaliza o Painel"
+msgstr "This Plugin customizes main panel"
+
+#. URI of the plugin
+msgid "http://exemplo.com"
+msgstr "http://exemplo.com"
+
+#. Author URI of the plugin
+msgid "http://fat32.com.br"
+msgstr "http://fat32.com.br"
+
+#. Author of the plugin
+msgid "José Paulo de Carvalho"
+msgstr "José Paulo de Carvalho"
+
+#. Name of the plugin
+msgid "Personalizar Painel"
+msgstr "Customizes Panel"
+
+#: segundo-plugin.php:123
+msgid "Seja bem vindo ao Painel Fat32Admin"
+msgstr "Welcome to Fat32Admin Panel!"
+
+#: segundo-plugin.php:126
+msgid "Siga-nos nas redes sociais"
+msgstr "Follow us in the social media"

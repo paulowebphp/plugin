@@ -60,7 +60,7 @@ get_header(); ?>
 		}//end foreach */
 
 
-		$query = 'posts_per_page=3&' .
+		/**$query = 'posts_per_page=3&' .
 		'orderby=rand';
 
 		$myPosts = new WP_Query($query);
@@ -73,7 +73,7 @@ get_header(); ?>
 			echo '<p>' . the_content() . '</p>';
 			echo '<br><br>';
 
-		endwhile;
+		endwhile; */
 
 		
 				
@@ -114,6 +114,8 @@ get_header(); ?>
 
 			// End of the loop.
 		endwhile;
+
+		echo the_meta();
 		?>
 
 	</main><!-- .site-main -->

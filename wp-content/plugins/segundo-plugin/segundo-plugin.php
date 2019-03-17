@@ -15,6 +15,8 @@ License: GPL2
 class Segundo_Plugin
 {
 
+    const TEXT_DOMAIN = 'segundo-plugin';
+
     private static $instance;
 
 
@@ -26,7 +28,7 @@ class Segundo_Plugin
         if( self::$instance === NULL )
         {
             # code...
-            self::$instance = new Segundo_Plugin();
+            self::$instance = new self();
 
         }//end if
 
@@ -70,6 +72,21 @@ class Segundo_Plugin
         );//end add_action
 
 
+        add_action(
+            
+            'init',
+        
+            [
+
+                $this,
+
+                'load_text_domain'
+
+            ]
+        
+        );//end add_action
+
+
 
 
     }//end __construct
@@ -78,18 +95,32 @@ class Segundo_Plugin
 
 
 
-
-    function welcome_panel()
+    public function load_text_domain()
     {
 
-        echo "
+        load_plugin_textdomain(
+            
+            self::TEXT_DOMAIN, 
+            false, 
+            dirname(plugin_basename(__FILE__))
+        
+        );//end load_plugin_textdomain
 
+    }//END load_text_domain
+
+
+
+
+
+    public function welcome_panel()
+    {
+        ?>
             <div class='welcome-panel-content'>
                 <h3>
-                    Seja bem vindo ao Painel Fat32Admin
+                    <?= __('Seja bem vindo ao Painel Fat32Admin','segundo-plugin') ?>
                 </h3>
                 <p>
-                    Siga-nos nas redes sociais
+                    <?= __('Siga-nos nas redes sociais','segundo-plugin') ?>
                 </p>
                 <div id='icons'>
                     <a href='#' target='_blank'>
@@ -101,7 +132,7 @@ class Segundo_Plugin
                 </div>
             </div>
         
-        ";
+        <?php
 
     }//end my_welcome_panel
 
