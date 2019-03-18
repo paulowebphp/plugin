@@ -1,0 +1,36 @@
+
+'page_title' => __ ('Instalar plugins necessários', Filmes_Reviews::TEXT_DOMAIN),
+
+'menu_title' => __ ('Instalar Plugins', Filmes_Reviews::TEXT_DOMAIN),
+
+'installing' => __ ('Instalando o Plugin:  %s', Filmes_Reviews::TEXT_DOMAIN),
+
+'oops' => __ ('Algo deu errado com a API do plugin', Filmes_Reviews::TEXT_DOMAIN),
+
+'notice_can_install_required' => _n_noop ('O plugin Movie Reviews depende do seguinte plugin :   s.',' O plugin Movie Reviews depende dos seguintes plugins: %1$s.'),
+
+'notice_can_install_recommended' => _n_noop ('O plugin Movie Reviews recomenda o seguinte plugin: %1$s.',' O plugin Movie Reviews recomenda os seguintes plugins: %1$s.'),
+
+'notice_cannot_install' => _n_noop ('Desculpe, mas você não tem as permissões corretas para instalar o plugin %s. Entre em contato com o administrador deste site para obter ajuda sobre como instalar o plug-in.',' Desculpe, mas você não tem as permissões corretas para instalar os plugins %s. Entre em contato com o administrador deste site para obter ajuda sobre como instalar os plug-ins.'),
+
+'notice_can_activate_required' => _n_noop ('O plug-in requerido a seguir está inativo no momento: %1$s.',' Os seguintes plugins necessários estão inativos no momento: %1$s.'),
+
+'notice_can_activate_recommended' => _n_noop ('O seguinte plugin recomendado está inativo :   s.',' Os seguintes plugins recomendados estão inativos no momento: %1$s.'),
+
+'notice_cannot_activate' => _n_noop ('Desculpe, mas você não tem as permissões corretas para ativar o plugin %s. Entre em contato com o administrador deste site para obter ajuda sobre como ativar o plug-in.',' Desculpe, mas você não tem as permissões corretas para ativar os plugins %s. Entre em contato com o administrador deste site para obter ajuda sobre como ativar os plug-ins.'),
+
+'notice_ask_to_update' => _n_noop ('O plugin a seguir precisa ser atualizado para sua versão mais recente para garantir compatibilidade máxima com este tema: %1$s.',' Os seguintes plugins precisam ser atualizados para sua versão mais recente para garantir compatibilidade máxima com este tema: %1$s.'),
+
+'notice_cannot_update' => _n_noop ('Desculpe, mas você não tem as permissões corretas para atualizar o plugin %s. Entre em contato com o administrador deste site para obter ajuda sobre como atualizar o plug-in.',' Desculpe, mas você não tem as permissões corretas para atualizar os plugins %s. Entre em contato com o administrador deste site para obter ajuda sobre como atualizar os plug-ins.'),
+
+'install_link' => _n_noop ('Começar a instalar o plugin', 'Começar a instalar plugins'),
+
+'activate_link' => _n_noop ('Ativar plugin instalado', 'Ativar plugins instalados'),
+
+'return' => __ ('Retornar ao Instalador de Plugins requerido', Filmes_Reviews::TEXT_DOMAIN),
+
+'plugin_activated' => __ ('Plugin activated successfully', Filmes_Reviews::TEXT_DOMAIN),
+
+'complete' => __ ('Todos os plugins instalados e ativados com sucesso. %s', Filmes_Reviews::TEXT_DOMAIN),
+
+'nag_type' => 'atualizado',
