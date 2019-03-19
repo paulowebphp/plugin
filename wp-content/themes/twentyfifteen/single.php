@@ -44,7 +44,7 @@ get_header(); ?>
 			// End the loop.
 		endwhile;
 		?>
-
+<?php echo '<h1>get_options('blogname'); </h1>'; ?>
 		</main><!-- .site-main -->
 	</div><!-- .content-area -->
 

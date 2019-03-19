@@ -1,14 +1,14 @@
 <?php
 require_once(dirname(__FILE__).'/widget/meu-widget.php');
 /*
-Plugin Name: Minhas Redes Sociais
-Plugin URI: http://exemplo.com
-Description: Plugin desenvolvido para exibir as minhas redes sociais
+Plugin Name: Fat32 Widget
+Description: Plugin simples para testar publicação na loja do Wordpress
 Version: 1.0
 Author: José Paulo de Carvalho
 Author URI: https://fat32.com.br
-Text Domain: minhas-redes-sociais
-License: GPL2
+Text Domain: fat32-widget
+License: GPLv2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 class Minhas_Redes
